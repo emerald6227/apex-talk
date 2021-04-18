@@ -1,0 +1,36 @@
+.badge {
+  background-color: tomato;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.badge__reversal {
+  color: tomato;
+  border: 2px solid tomato;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.badge__light-dot {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.badge__cog-light-dot {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}

@@ -1,0 +1,122 @@
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 25px 0px;
+  margin: 25px 0px;
+}
+
+.recommended-friends__title {
+  font-size: 14px;
+  color: var(--main-text-color);
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 100px 0;
+  text-align: center;
+  font-size: 18px;
+  color: var(--main-text-color);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--main-text-color);
+  margin-bottom: 25px;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: var(--main-border);
+}
+
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+
+.open-post__members {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.open-post__members img {
+  width: 25px;
+  height: 25px;
+  border-radius: 30%;
+  margin-right: 5px;
+}
+
+.open-post__member-count {
+  color: var(--main-text-color);
+  font-size: 14px;
+}
+
+.open-post__members .divider {
+  width: 1.4px;
+  height: 10px;
+  background-color: var(--main-text-color);
+  margin: 0 5px;
+}
+
+.open-post__member-status {
+  color: #ff69c4;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10%;
+}
+
+.open-post__heart-count {
+  background-color: var(--main-text-color);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 13px;
+}
+
+.open-post__heart-count span {
+  margin-left: 3px;
+}
+
+/* animation */
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform; /* 브라우저에게 해당 부분이 변경될 것임을 미리 알림 (브라우저를 도움) */
+  animation: heartBeat 1s linear infinite;
+}
