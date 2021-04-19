@@ -14,27 +14,44 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
+  width: 80px;
+  height: 100px;
+  margin: 0 10px 20px 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
+  width: 50px;
+  height: 50px;
+  background-color: var(--apex-red);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px;
   margin-bottom: 10px;
 }
 
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;
+}
+
+.more-suggestions__icon-image img {
+  width: 80px;
+  height: 50px;
+}
+
+.more-suggestions__icon-text {
+  height: 30px;
+  text-align: center;
 }
