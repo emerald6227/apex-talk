@@ -1,3 +1,16 @@
+#settings-screen .alt-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--main-black);
+  z-index: 1;
+}
+
+#settings-screen .main-screen {
+  margin-top: 100px;
+}
+
 .settings__setting {
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
