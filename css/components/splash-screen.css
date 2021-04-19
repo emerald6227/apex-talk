@@ -1,24 +1,29 @@
 /* splash screen */
 @keyframes hideSplashScreen {
-  from {
+  0% {
+    opacity: 0;
+  }
+  50% {
     opacity: 1;
   }
-  to {
+  100% {
     opacity: 0;
     visibility: hidden; /* 마우스에 걸리지 않게 화면이 빠짐 */
   }
 }
 
 #splash-screen {
-  background-color: black;
   position: absolute;
-  height: 210vh;
+  height: 100vh;
   width: 100vw;
   top: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  font-size: 130px;
-  animation: hideSplashScreen 2s ease-in-out forwards;
-  animation-delay: 0.01s;
+  align-items: center;
+  animation: hideSplashScreen 1.8s ease forwards;
+}
+
+#splash-screen img {
+  width: 40%;
+  height: 20%;
 }
