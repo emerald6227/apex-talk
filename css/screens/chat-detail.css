@@ -111,7 +111,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: white;
+  background-color: var(--main-black);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -139,18 +139,20 @@
 
 .reply__column:last-child > i,
 .reply__column:last-child button {
+  color: white;
   position: absolute;
   right: -1px;
   top: 5px;
 }
 
 .reply__column:last-child > i {
+  color: black;
   right: 40px;
   top: 13px;
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: tomato;
   border: none;
   width: 30px;
   height: 30px;

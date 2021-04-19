@@ -3,7 +3,7 @@
   z-index: 99;
   height: 100vh;
   width: 100vw;
-  background-color: var(--yellow);
+  background-color: black;
   display: flex;
   top: 0;
   justify-content: center;
@@ -11,7 +11,54 @@
   font-size: 32px;
 }
 
-@media screen and (max-width: 645px) {
+#no-mobile__intro {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+.no-mobile__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-mobile__box img {
+  width: 900px;
+  height: 500px;
+  border-radius: 50%;
+}
+.no-mobile__box span {
+  color: var(--apex-red);
+}
+
+@keyframes enterPortal {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(5);
+    opacity: 0%;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #no-mobile__intro span {
+    display: none;
+  }
+  #no-mobile__intro {
+    animation: enterPortal 3s ease forwards;
+  }
+
   #no-mobile {
     display: none;
   }
