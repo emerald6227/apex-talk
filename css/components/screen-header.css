@@ -19,7 +19,7 @@
 }
 
 .screen-header__icons span {
-  margin-left: 25px;
+  margin-left: 20px;
 }
 
 /* animation */
@@ -32,6 +32,22 @@
   }
 }
 
-.screen-header__icons .fa-cog:hover {
+.screen-header__icons .fa-cog {
   animation: rotateCog 3s linear infinite;
+}
+
+@keyframes music-animation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.screen-header__icons .fa-music {
+  animation: music-animation 1.5s ease infinite;
 }

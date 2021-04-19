@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: hideSplashScreen 1.8s ease forwards;
+  animation: hideSplashScreen 1.2s ease forwards;
 }
 
 #splash-screen img {

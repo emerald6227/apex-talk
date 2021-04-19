@@ -1,0 +1,19 @@
+.market-screen {
+  padding: 0px var(--horizontal-space);
+  height: 195vh;
+}
+
+.brand-new__title {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: tomato;
+}
+
+.brand-new {
+  padding-bottom: 10px;
+  border-bottom: var(--main-border);
+}
+
+.product__main {
+  margin-top: 40px;
+}

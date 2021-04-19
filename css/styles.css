@@ -11,6 +11,7 @@
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
 @import "components/splash-screen.css";
+@import "components/product.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -19,6 +20,8 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat-detail.css";
+@import "screens/market.css";
+@import "screens/music.css";
 
 html {
   background-color: var(--main-black);

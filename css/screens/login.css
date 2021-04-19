@@ -9,7 +9,7 @@
 }
 
 .welcome-header img {
-  width: 70vw;
+  width: 320px;
 }
 
 .welcome-header__title {
@@ -17,7 +17,6 @@
   position: absolute;
   font-size: 80px;
   top: 50%;
-  /* left: 26.5%; */
 }
 
 .welcome-header__text-box {

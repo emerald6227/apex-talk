@@ -1,0 +1,52 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gainsboro;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.gold-border {
+  border: 2px solid gold;
+}
+
+.light-border {
+  border: 2px solid chocolate;
+}
+
+.energy-border {
+  border: 2px solid greenyellow;
+}
+
+.sniper-border {
+  border: 2px solid blueviolet;
+}
+
+.shotgun-border {
+  border: 2px solid var(--apex-red);
+}
+
+.product__image-box img {
+  width: 100%;
+  height: 20vh;
+  border-radius: 10px;
+}
+
+.product__text-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.product__text-box span:first-child {
+  color: var(--apex-red);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.product__text-box span:nth-child(2) {
+  color: gainsboro;
+  font-size: 20px;
+  font-weight: 600;
+}
