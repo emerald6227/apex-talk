@@ -14,7 +14,7 @@
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
-  height: 180vh;
+  height: 190vh;
 }
 
 .friends-screen__channel {
@@ -58,7 +58,7 @@
 #loading-screen {
   background-color: black;
   position: absolute;
-  height: 210vh;
+  height: 220vh;
   width: 100vw;
   top: 0;
   display: flex;

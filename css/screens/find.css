@@ -1,3 +1,8 @@
+.find-screen {
+  padding: 0px var(--horizontal-space);
+  height: 110vh;
+}
+
 .recommended-friends {
   border-top: var(--main-border);
   border-bottom: var(--main-border);
