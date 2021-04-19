@@ -1,12 +1,13 @@
 .badge {
   background-color: tomato;
-  color: white;
-  width: 25px;
-  height: 25px;
+  color: gainsboro;
+  width: 17px;
+  height: 17px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 13px;
   font-weight: 600;
 }
 

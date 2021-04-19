@@ -6,7 +6,9 @@
   display: flex;
   justify-content: center; /* space-between은 div박스의 크기가 다르면 예쁘게 위치하지 못함 */
   padding: 5px 3px;
-  background-color: white;
+  background-color: #f9f9fa;
+  color: var(--main-black);
+  z-index: 3;
 }
 
 .status-bar__column {

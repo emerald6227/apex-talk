@@ -1,10 +1,11 @@
 #chat-screen {
-  background-color: #abc1d1;
+  /* background-color: #abc1d1; */
+  background-color: var(--main-black);
   height: 500vh;
 }
 
 #chat-screen .status-bar {
-  background-color: #abc1d1;
+  background-color: gainsboro;
   z-index: 2;
 }
 
@@ -13,7 +14,7 @@
   top: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: #abc1d1;
+  background-color: var(--main-black);
   z-index: 1;
 }
 
@@ -38,8 +39,8 @@
 }
 
 .chat__timestamp {
-  color: white;
-  background-color: #92a4b2;
+  color: var(--main-black);
+  background-color: gainsboro;
   padding: 15px;
   border-radius: 25px;
   font-size: 14px;
@@ -56,7 +57,7 @@
 .message-row img {
   width: 50px;
   height: 50px;
-  border-radius: 22px;
+  border-radius: 18px;
   margin-right: 15px;
 }
 
@@ -74,7 +75,8 @@
 }
 
 .message__bubble {
-  background-color: white;
+  background-color: black;
+  /* color: black; */
   padding: 13px;
   border-radius: 15px;
   border-top-left-radius: 0px;
@@ -96,7 +98,8 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  /* background-color: var(--yellow); */
+  background-color: var(--apex-red);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;

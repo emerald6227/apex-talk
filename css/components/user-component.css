@@ -6,14 +6,18 @@
 .user-component,
 .user-component__column:first-child {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
+.user-component__avatar-box {
+  padding-right: 20px;
+}
+
 .user-component__avatar {
-  width: 70px;
-  height: 70px;
-  border-radius: 30%;
-  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
 }
 
 .user-component__box {
@@ -23,22 +27,22 @@
 }
 
 .user-component__title {
-  font-weight: 600;
-  font-size: 22px;
+  font-size: 17px;
+  font-weight: 700;
   margin-bottom: 8px;
 }
 
 .user-component__subtitle {
-  font-size: 17px;
-  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  font-weight: 600;
+  color: gainsboro;
   margin-right: 5px;
 }
 
 .user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
-  border-radius: 30px;
-  /* padding: var(--horizontal-space); */
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
 }
 
 .user-component__avatar--sm {
@@ -52,7 +56,6 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -60,5 +63,6 @@
 
 .user-component__time {
   display: block;
+  font-size: 13px;
   margin-bottom: 10px;
 }

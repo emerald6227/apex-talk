@@ -5,23 +5,23 @@
   flex-direction: column;
   align-items: center;
   font-weight: 700;
-}
-
-.welcome-header__title {
-  /* margin-bottom: 20px; */
-  font-size: 25px;
+  /* position: relative; */
 }
 
 .welcome-header img {
-  background-color: red;
-  width: 100vw;
-  height: 40vh;
+  width: 70vw;
 }
 
-/* .welcome-header__text {
-  width: 60%;
-  opacity: 0.7;
-} */
+.welcome-header__title {
+  /* position: absolute; */
+  font-size: 25px;
+}
+
+.welcome-header__text {
+  /* position: absolute; */
+  /* width: 60%;
+  opacity: 0.7; */
+}
 
 #login-form {
   display: flex;
@@ -38,14 +38,12 @@
 }
 
 #login-form input:not([type="submit"]) {
-  /* border-bottom: 2px solid rgba(0, 0, 0, 0.2); */
-  border-bottom: 2px solid white; /* a는 투명도 */
+  border-bottom: 2px solid gainsboro; /* a는 투명도 */
   transition: border-color 0.3s ease-in-out;
   color: white;
 }
 
 #login-form input::placeholder {
-  /* color: rgba(0, 0, 0, 0.4); */
   color: var(--apex-red);
 }
 
@@ -55,7 +53,7 @@
 
 #login-form input[type="submit"] {
   background-color: var(--apex-red);
-  color: white;
+  color: gainsboro;
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
